@@ -118,11 +118,7 @@ Presentazioni, Curriculum & altro...
 \begin_inset Newline newline
 \end_inset
 
-con 
-\begin_inset Formula $\mathbf{L}\!{}_{\mathbf{{\displaystyle Y}}}\!\mathbf{X}$
-\end_inset
-
-
+con LyX
 \begin_inset Newline newline
 \end_inset
 
@@ -131,27 +127,7 @@ con
 status open
 
 \begin_layout Plain Layout
-Corso
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Formula $\mathbf{L}\!{}_{\mathbf{{\displaystyle Y}}}\!\mathbf{X}$
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-2015
+Corso LyX 2015
 \end_layout
 
 \end_inset
@@ -225,11 +201,7 @@ Cosa vediamo oggi
 
 \begin_deeper
 \begin_layout Enumerate
-Perché 
-\begin_inset Formula $\mathbf{L}\!{}_{\mathbf{{\displaystyle Y}}}\!\mathbf{X}$
-\end_inset
-
-?
+Perché LyX?
 \end_layout
 
 \begin_deeper
@@ -326,11 +298,7 @@ ma anche...
 \end_layout
 
 \begin_layout Section
-Perché 
-\begin_inset Formula $\mathbf{L}\!{}_{\mathbf{{\displaystyle Y}}}\!\mathbf{X}$
-\end_inset
-
-?
+Perché LyX?
 \end_layout
 
 \begin_layout Frame
@@ -348,11 +316,8 @@ La classe documento
 
 \begin_deeper
 \begin_layout Itemize
-In 
-\begin_inset Formula $\mathbf{L}\!{}_{\mathbf{{\displaystyle Y}}}\!\mathbf{X}$
-\end_inset
-
- esiste la classe documento che si preoccupa dello stile della presentazione
+In LyX esiste la classe documento che si preoccupa dello stile della presentazio
+ne
 \end_layout
 
 \begin_layout Quote
@@ -401,10 +366,7 @@ Bisogna tenere a mente una cosa...
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $\mathbf{L}\!{}_{\mathbf{{\displaystyle Y}}}\!\mathbf{X}$
-\end_inset
-
- mette a disposizione una vasta scelta di 
+LyX mette a disposizione una vasta scelta di 
 \series bold
 Modelli 
 \series default
@@ -468,10 +430,7 @@ Per chi vuole...
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $\mathbf{L}\!{}_{\mathbf{{\displaystyle Y}}}\!\mathbf{X}$
-\end_inset
-
- permette anche di adattare il layout alle proprie esigenze
+LyX permette anche di adattare il layout alle proprie esigenze
 \end_layout
 
 \begin_layout Itemize
@@ -691,11 +650,7 @@ Presentazioni
 status open
 
 \begin_layout Plain Layout
-Come si fanno le presentazioni con 
-\begin_inset Formula $\mathbf{L}\!{}_{\mathbf{{\displaystyle Y}}}\!\mathbf{X}$
-\end_inset
-
-?
+Come si fanno le presentazioni con LyX?
 \end_layout
 
 \end_inset
@@ -912,10 +867,6 @@ How to be a Panda
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
