@@ -272,6 +272,18 @@ Temi
 \end_deeper
 \begin_layout Enumerate
 Altri tipi di documenti
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+metterei questa parte prima, cioè: ci occupiamo di tutti i tipi di documenti
+ che LyX supporta...ma ne approfondiamo solo due: CV e presentazioni.
+ Però fai tu.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -318,6 +330,16 @@ La classe documento
 \begin_layout Itemize
 In LyX esiste la classe documento che si preoccupa dello stile della presentazio
 ne
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+tipo di documento, stile presentazione è un'altra cosa
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -431,6 +453,16 @@ Per chi vuole...
 \begin_deeper
 \begin_layout Itemize
 LyX permette anche di adattare il layout alle proprie esigenze
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+o creare un layout su misura per un nuovo tipo di documento
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -450,6 +482,29 @@ Aiuto
 \end_deeper
 \begin_layout Section
 Modern CV
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+spenderei una diapositiva sui prerequisiti:
+\end_layout
+
+\begin_layout Plain Layout
+1- quale pacchetto LaTeX contiene modernCV (nel caso qualche stronzo invece
+ di installare tutto il framework avesse installato solo una parte di LaTeX
+\end_layout
+
+\begin_layout Plain Layout
+2- il sito da cui scaricare il template ModernCV (per chi come te non lo
+ aveva all'inizio o per chi volesse dare un occhio)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -551,6 +606,16 @@ CVStyle
 
 \begin_layout Itemize
 Tra gli stili possibili
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+i possibili stili
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -643,6 +708,37 @@ black
 
 \begin_layout Section
 Presentazioni
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+bello ma anche qui metterei i prerequisiti.
+\end_layout
+
+\begin_layout Plain Layout
+Anche perché sono abbastanza sicuro che Beamer non faccia parte del pacchetto
+ latex e bisogna forse scaricare 
+\begin_inset Quotes fld
+\end_inset
+
+texlive-beamer
+\begin_inset Quotes frd
+\end_inset
+
+ a parte.
+\end_layout
+
+\begin_layout Plain Layout
+E di sicuro un link alla famosa tabella dove mostrano la preview degli stili
+ di presentazione (quelli coi nomi di città)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -766,6 +862,17 @@ oppure ...
 
 \begin_layout Itemize
 Ctrl-Alt-freccia dx/sx
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+a me questa combo cambia il workspace in Cinnamon.
+ Sicura che sistemi anche la gerarchia? :p io mi fido...
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -836,6 +943,23 @@ Inserisci
  
 \series bold
 Immagine...
+\end_layout
+
+\begin_layout Quote
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+sicura di voler introdurre l'argomento flottanti? a me pare una cosa abbastanza
+ avanzata.
+ In ogni caso è più importante spiegare il resize delle immagini.
+ In particolare le dimensioni espresse in % relative (% larghezza colonna
+ di testo, % larghezza pagina, ...)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
