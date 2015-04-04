@@ -556,15 +556,7 @@ Office Suite, Document Editor
 status open
 
 \begin_layout Plain Layout
-MS Office, 
-\lang italian
-
-\begin_inset Formula $\mathbf{L}\!{}_{\mathbf{{\displaystyle Y}}}\!\mathbf{X}$
-\end_inset
-
-
-\lang british
-/LaTeX, Libre Office
+MS Office, Lyx/LaTeX, Libre Office
 \end_layout
 
 \end_inset
@@ -586,7 +578,7 @@ POuL
 
 \end_inset
 
-Member of Politecnico Open unix Labs (
+Member of Politecnico Open unix Lab (
 \begin_inset Flex URL
 status open
 

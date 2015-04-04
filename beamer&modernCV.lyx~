@@ -32,7 +32,7 @@
 }
 
 %change color linksurl
-\hypersetup{ colorlinks=true, urlcolor=orange
+\hypersetup{ colorlinks=true, urlcolor=blue
 }
 \end_preamble
 \use_default_options true
@@ -531,7 +531,7 @@ Il template offerto segue lo standard americano, quindi sono omessi i campi
 \end_layout
 
 \begin_layout Itemize
-Sono però facilmente inseribili tramite la barra dei layout 
+Sono però facilmente inseribili tramite il menu a tendina dei layout 
 \end_layout
 
 \begin_deeper
@@ -587,7 +587,7 @@ Per cambiare stile al vostro Curriculum
 \series bold
 CVStyle
 \series default
- dalla barra dei layout
+ dal menu a tendina dei layout
 \end_layout
 
 \begin_layout Itemize
@@ -632,7 +632,7 @@ e colore...
 
 \begin_deeper
 \begin_layout Itemize
-Per il colore
+Per cambiare il colore
 \end_layout
 
 \begin_layout Quote
@@ -640,7 +640,7 @@ Per il colore
 \series bold
 CVColor 
 \series default
-dalla barra dei layout
+dal menu a tendina dei layout
 \end_layout
 
 \begin_layout Itemize
@@ -757,15 +757,171 @@ Nuovo da modello
 \begin_inset Formula $\triangleright$
 \end_inset
 
- beamer-conference-ornate-20min.lyx
+ beamer-conference-ornate-20min
 \end_layout
 
 \begin_layout Itemize
-Compilare i campi in base alle proprie esigenze
+Compilare i campi in base alle proprie esigenze e seguendo le comode note
+ (in colore giallo)
 \end_layout
 
 \begin_layout Itemize
-Generare il pdf 
+Generare il pdf!
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Gerarchia del documento
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Bisogna tenere a mente alcune cose per rispettare la struttura del documento
+\end_layout
+
+\begin_layout Itemize
+Per la 
+\series bold
+gerarchia
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+tab/shift-tab
+\end_layout
+
+\begin_layout Itemize
+oppure ...
+\end_layout
+
+\begin_layout Itemize
+Ctrl-Alt-freccia dx/sx
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Ricordarsi di inserire il 
+\series bold
+Separatore
+\series default
+ tra una diapositiva e l'altra
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Alt-P Enter
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Per inserire immagini?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Quote
+
+\series bold
+Inserisci 
+\series default
+
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ 
+\series bold
+Oggetti flottanti 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ Figura
+\end_layout
+
+\begin_layout Itemize
+E una volta inserito il flottante
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+Inserisci
+\series default
+ 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ 
+\series bold
+Immagine...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename How-to-be-a-panda.jpg
+	width 4.5cm
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+How to be a Panda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
