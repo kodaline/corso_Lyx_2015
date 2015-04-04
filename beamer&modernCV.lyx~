@@ -766,7 +766,7 @@ Compilare i campi in base alle proprie esigenze e seguendo le comode note
 \end_layout
 
 \begin_layout Itemize
-Generare il pdf!
+Generare il pdf! (Ctrl-R)
 \end_layout
 
 \end_deeper
@@ -934,11 +934,21 @@ How to be a Panda
 status open
 
 \begin_layout Plain Layout
-
+...e per inserire tabelle?
 \end_layout
 
 \end_inset
 
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\end_layout
+
+\end_deeper
+\begin_layout Frame
 
 \end_layout
 
