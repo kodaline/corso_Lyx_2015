@@ -175,7 +175,7 @@ Adelina Doncheva
 
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 dai...interpola le annotazioni e dimmi cosa ti aspetti di dover fare qui.
@@ -328,18 +328,7 @@ La classe documento
 
 \begin_deeper
 \begin_layout Itemize
-In LyX esiste la classe documento che si preoccupa dello stile della presentazio
-ne
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-tipo di documento, stile presentazione è un'altra cosa
-\end_layout
-
-\end_inset
-
-
+In LyX esiste la classe documento che si preoccupa del tipo di documento
 \end_layout
 
 \begin_layout Quote
@@ -452,17 +441,7 @@ Per chi vuole...
 
 \begin_deeper
 \begin_layout Itemize
-LyX permette anche di adattare il layout alle proprie esigenze
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-o creare un layout su misura per un nuovo tipo di documento
-\end_layout
-
-\end_inset
-
-
+LyX permette anche di creare un layout su misura per un nuovo tipo di documento
 \end_layout
 
 \begin_layout Itemize
@@ -500,6 +479,10 @@ spenderei una diapositiva sui prerequisiti:
 \begin_layout Plain Layout
 2- il sito da cui scaricare il template ModernCV (per chi come te non lo
  aveva all'inizio o per chi volesse dare un occhio)
+\end_layout
+
+\begin_layout Plain Layout
+3-link ai social network in automatico
 \end_layout
 
 \end_inset
@@ -605,17 +588,7 @@ CVStyle
 \end_layout
 
 \begin_layout Itemize
-Tra gli stili possibili
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-i possibili stili
-\end_layout
-
-\end_inset
-
-
+I possibili stili
 \end_layout
 
 \begin_deeper
@@ -856,25 +829,6 @@ gerarchia
 tab/shift-tab
 \end_layout
 
-\begin_layout Itemize
-oppure ...
-\end_layout
-
-\begin_layout Itemize
-Ctrl-Alt-freccia dx/sx
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-a me questa combo cambia il workspace in Cinnamon.
- Sicura che sistemi anche la gerarchia? :p io mi fido...
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_deeper
 \begin_layout Itemize
 Ricordarsi di inserire il 
@@ -909,28 +863,6 @@ Per inserire immagini?
 \end_layout
 
 \begin_deeper
-\begin_layout Quote
-
-\series bold
-Inserisci 
-\series default
-
-\begin_inset Formula $\triangleright$
-\end_inset
-
- 
-\series bold
-Oggetti flottanti 
-\begin_inset Formula $\triangleright$
-\end_inset
-
- Figura
-\end_layout
-
-\begin_layout Itemize
-E una volta inserito il flottante
-\end_layout
-
 \begin_layout Quote
 
 \series bold
@@ -974,20 +906,6 @@ status open
 	filename How-to-be-a-panda.jpg
 	width 4.5cm
 	height 4cm
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\emph on
-How to be a Panda
-\end_layout
 
 \end_inset
 
