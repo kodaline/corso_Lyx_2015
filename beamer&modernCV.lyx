@@ -174,16 +174,6 @@ Adelina Doncheva
 \end_inset
 
 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-dai...interpola le annotazioni e dimmi cosa ti aspetti di dover fare qui.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Frame
@@ -205,6 +195,32 @@ Perché LyX?
 \end_layout
 
 \begin_deeper
+\begin_layout Pause
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Tipi di documento
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Lettera
+\end_layout
+
+\begin_layout Itemize
+Ricettario
+\end_layout
+
+\begin_layout Itemize
+Libro
+\end_layout
+
+\begin_layout Itemize
+...
+\end_layout
+
 \begin_layout Pause
 
 \end_layout
@@ -265,44 +281,6 @@ Header & Footer
 Temi
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Altri tipi di documenti
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-metterei questa parte prima, cioè: ci occupiamo di tutti i tipi di documenti
- che LyX supporta...ma ne approfondiamo solo due: CV e presentazioni.
- Però fai tu.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Lettera
-\end_layout
-
-\begin_layout Itemize
-Articolo
-\end_layout
-
-\begin_layout Itemize
-Ricettario
-\end_layout
-
-\begin_layout Itemize
-ma anche...
-\end_layout
-
 \end_deeper
 \end_deeper
 \begin_layout Separator
@@ -334,7 +312,7 @@ In LyX esiste la classe documento che si preoccupa del tipo di documento
 \begin_layout Quote
 
 \series bold
-Documento
+Document
 \series default
  
 \begin_inset Formula $\triangleright$
@@ -342,7 +320,7 @@ Documento
 
  
 \series bold
-Impostazioni
+Settings
 \series default
  
 \begin_inset Formula $\triangleright$
@@ -350,11 +328,7 @@ Impostazioni
 
  
 \series bold
-Classe
-\series default
- 
-\series bold
-documento
+Document Class
 \end_layout
 
 \end_deeper
@@ -395,7 +369,7 @@ File
 
  
 \series bold
-Nuovo da modello...
+New from Template...
  
 \end_layout
 
@@ -451,14 +425,355 @@ Trovate una guida accessibile andando su
 \begin_layout Quote
 
 \series bold
-Aiuto 
+Help 
 \begin_inset Formula $\triangleright$
 \end_inset
 
- Personalizzazione
+ Customization
 \end_layout
 
 \end_deeper
+\begin_layout Section
+Tipi di documento
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Per scrivere una lettera...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Nulla di più semplice!
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+File
+\series default
+ 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+
+\series bold
+ New from Template...
+
+\series default
+ 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ 
+\series bold
+letter.lyx
+\end_layout
+
+\begin_layout Itemize
+Compilare i campi a vostro piacimento
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Solo una piccola nota
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout AlertBlock
+L'ultima riga di commiato 
+\series bold
+\emph on
+Signature
+\series default
+\emph default
+ va inserita nel documento di LyX prima del campo 
+\series bold
+\emph on
+Opening
+\end_layout
+
+\begin_layout Itemize
+Esportare il file pdf!
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+...oppure il ricettario della nonna *.*
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Quote
+
+\series bold
+File
+\series default
+ 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ 
+\series bold
+New from Template...
+
+\series default
+ 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ 
+\series bold
+.../examples/recipebook.lyx
+\end_layout
+
+\begin_layout Itemize
+Compilare i campi a vostro piacimento
+\end_layout
+
+\begin_layout Itemize
+Esportare il file pdf!
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Per gli aspiranti autori invece...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+LyX offre anche la modalità 
+\series bold
+Book
+\series default
+, più precisamente
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+File
+\series default
+ 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ 
+\series bold
+New
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+Document
+\series default
+ 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ 
+\series bold
+Settings
+\series default
+ 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ 
+\series bold
+Document Class
+\series default
+ 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ 
+\series bold
+Libro Koma-Script
+\end_layout
+
+\begin_layout Block
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Alcune utilities
+\end_layout
+
+\end_inset
+
+In questo caso vengono molto utili ambienti come ''Parte'' o ''Capitolo''
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Ma per scrivere 
+\series bold
+bene 
+\series default
+un libro...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Ci vuole qualcosa ''in più''
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Change Tracking
+\end_layout
+
+\begin_layout AlertBlock
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Nota bene 
+\end_layout
+
+\end_inset
+
+
+\series bold
+Document
+\series default
+ 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ 
+\series bold
+Compressed
+\series default
+ NON deve essere selezionato
+\end_layout
+
+\begin_layout LyX-Code
+git init
+\end_layout
+
+\begin_layout LyX-Code
+git commit -am ''First version''
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Divide et Impera
+\end_layout
+
+\begin_deeper
+\begin_layout Quote
+
+\series bold
+Insert 
+\series default
+
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ 
+\series bold
+File
+\series default
+ 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ 
+\series bold
+Child Document...
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+Citazioni
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+È utile creare un ambiente bibliografia con le citazioni etichettate per
+ riga
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+Insert
+\series default
+ 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ 
+\series bold
+Citation...
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
 \begin_layout Section
 Modern CV
 \end_layout
@@ -513,9 +828,10 @@ File
 \begin_inset Formula $\triangleright$
 \end_inset
 
- 
+
 \series bold
-Nuovo da modello 
+ New from Template...
+ 
 \begin_inset Formula $\triangleright$
 \end_inset
 
@@ -547,7 +863,7 @@ campi
 \begin_layout Quote
 
 \series bold
-Inserisci 
+Insert 
 \begin_inset Formula $\triangleright$
 \end_inset
 
@@ -709,6 +1025,10 @@ E di sicuro un link alla famosa tabella dove mostrano la preview degli stili
  di presentazione (quelli coi nomi di città)
 \end_layout
 
+\begin_layout Plain Layout
+Header footer - short title/author ecc
+\end_layout
+
 \end_inset
 
 
@@ -735,7 +1055,7 @@ Come si fanno le presentazioni con LyX?
 \begin_layout Quote
 
 \series bold
-Documento
+Document
 \series default
  
 \begin_inset Formula $\triangleright$
@@ -743,7 +1063,7 @@ Documento
 
  
 \series bold
-Impostazioni
+Settings
 \series default
  
 \begin_inset Formula $\triangleright$
@@ -751,11 +1071,7 @@ Impostazioni
 
  
 \series bold
-Classe
-\series default
- 
-\series bold
-documento 
+Document Class 
 \begin_inset Formula $\triangleright$
 \end_inset
 
@@ -775,9 +1091,10 @@ File
 \begin_inset Formula $\triangleright$
 \end_inset
 
- 
+
 \series bold
-Nuovo da modello 
+ New from Template...
+ 
 \begin_inset Formula $\triangleright$
 \end_inset
 
@@ -866,7 +1183,7 @@ Per inserire immagini?
 \begin_layout Quote
 
 \series bold
-Inserisci
+Insert
 \series default
  
 \begin_inset Formula $\triangleright$
@@ -874,7 +1191,7 @@ Inserisci
 
  
 \series bold
-Immagine...
+Graphics...
 \end_layout
 
 \begin_layout Quote
