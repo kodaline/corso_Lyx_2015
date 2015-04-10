@@ -232,17 +232,7 @@ Le classi di documento
 
 \begin_deeper
 \begin_layout Itemize
-LyX
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-software libero con interfaccia grafica per elaborare testi
-\end_layout
-
-\end_inset
-
- permette di concentrarsi sui 
+LyX permette di concentrarsi sui 
 \series bold
 contenuti
 \series default

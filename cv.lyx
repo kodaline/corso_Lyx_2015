@@ -93,16 +93,94 @@
 
 \begin_body
 
+\begin_layout Standard
+
+\lang english
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The moderncv class offers lots of customization possibilities; some are
+ explained in the preamble of this document; for more information look at
+ the documentation of the LaTeX-package 
+\series bold
+moderncv
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://mirrors.ctan.org/macros/latex/contrib/moderncv/examples/template.tex
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout CVStyle
 classic
+\lang english
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+required, possible styles are 'casual' (default), 'classic', 'oldstyle'
+ and 'banking'
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout CVColor
 orange
+\lang english
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+required, possible colors are 'blue' (default), 'orange', 'green', 'red',
+ 'purple', 'grey' and 'black'
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout PDF Page Mode
 FullScreen
+\lang english
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+optional, controls how the PDF will be shown; use either 'UseNone' (only
+ the document), 'UseThumbs' (show thumbnails), 'UseOutlines' (show bookmarks)
+ or 'FullScreen' (open in fullscreen mode).
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout FirstName
@@ -115,6 +193,33 @@ Doncheva
 
 \begin_layout Title
 Curriculum Vitae
+\lang english
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+optional
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The following personal entries are optional.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Address
@@ -161,12 +266,136 @@ github
 kodaline
 \end_layout
 
+\begin_layout Standard
+
+\lang english
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The Social style can be enabled if 
+\series bold
+moderncv
+\series default
+ version 1.5.0 or newer is installed.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Social
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+twitter
+\end_layout
+
+\end_inset
+
+ptestman
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+currently only 
+\series bold
+twitter
+\series default
+, 
+\series bold
+linkedin
+\series default
+ or 
+\series bold
+github
+\series default
+ is supported as name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Social
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+linkedin
+\end_layout
+
+\end_inset
+
+ptestman
+\end_layout
+
+\begin_layout Social
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+github
+\end_layout
+
+\end_inset
+
+ptestman
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout MakeCVtitle
+
+\lang english
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+outputs the title part; optional
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+Keep entries with green labels empty!
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \begin_layout Section
 Anagraphics
+\lang english
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Omit this paragraph for US usage
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout DoubleItem
@@ -326,6 +555,137 @@ Italy
 (voto/110)
 \end_layout
 
+\begin_layout Standard
+
+\size small
+\lang english
+\begin_inset Note Note
+status open
+
+\begin_layout Section
+Master Thesis
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Title
+\end_layout
+
+\end_inset
+
+
+\emph on
+Title of the thesis
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+add negative or positive space as you like
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Supervisors
+\end_layout
+
+\end_inset
+
+Names of supervisors
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+
+Description text
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Experience
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Nov 2013
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+150 Ore
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Politecnico di Milano
+\end_layout
+
+\end_inset
+
+Employees assistance
+\lang english
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Note:
+\series default
+ If you use the 
+\emph on
+banking
+\emph default
+ theme, no linebreaks are allowed in entries.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Languages
 \end_layout
@@ -476,15 +836,7 @@ C
 
 \end_inset
 
-good degree of knowledge,
-\begin_inset Newline newline
-\end_inset
-
-but I also dealt with other languages such as:
-\begin_inset Newline newline
-\end_inset
-
-Java, Python, MATLAB, HTML, XML
+good degree of knowledge
 \end_layout
 
 \begin_layout Standard
