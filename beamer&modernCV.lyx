@@ -239,7 +239,7 @@ contenuti
 .
  Alla presentazione ci pensano i file di stile
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 I file .sty di latex definiscono una serie di tag al loro interno che in
@@ -297,7 +297,7 @@ Letter
 \end_layout
 
 \begin_layout Itemize
-modernCV
+ModernCV
 \end_layout
 
 \begin_layout Itemize
@@ -2342,34 +2342,7 @@ status open
 
 
 \backslash
-visible<4>{
-\end_layout
-
-\end_inset
-
-Recap:
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<-1,4>{
+visible<-1>{
 \end_layout
 
 \end_inset
@@ -2413,7 +2386,7 @@ status open
 
 
 \backslash
-visible<2,4>{
+visible<2>{
 \end_layout
 
 \end_inset
@@ -2470,7 +2443,7 @@ status open
 
 
 \backslash
-visible<3,4>{
+visible<3>{
 \end_layout
 
 \end_inset
@@ -2488,16 +2461,16 @@ Avviso
 
 \end_inset
 
-I blocchi causano dipendenza, quindi fare attenzione alla gerarchia e nel
- caso, utilizzare shift-tab per 
+I blocchi causano dipendenza: se ne utilizzate troppi potrebbe essere un
+ 
 \begin_inset Quotes fld
 \end_inset
 
-uscire fuori
+problema
 \begin_inset Quotes frd
 \end_inset
 
- dal blocco
+
 \begin_inset ERT
 status open
 
