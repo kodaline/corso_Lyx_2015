@@ -2,42 +2,7 @@
 \lyxformat 474
 \begin_document
 \begin_header
-\textclass beamer
-\begin_preamble
-\usetheme{Madrid}
-%\usetheme{Marburg}
-\usefonttheme{structurebold}
-% \usecolortheme{crane} %GIALLA
-% more colors & themes http://www.hartwork.org/beamer-theme-matrix/
-
-\setbeamercovered{transparent}
-% transizioni: gli elementi nascosti vengono visualizzati in trasparenza
-
-\usenavigationsymbolstemplate{}
-% hide navigation symbols (bottom-right corner in every slide)
-
-\titlegraphic{\includegraphics[height=2cm]{newlogo.pdf}}
-% Aggiunge il logo del POuL in prima pagina
-
-\IfFileExists{lmodern.sty}{\usepackage{lmodern}}{}
-% sets nice fonts (if available)
-
-% inserisce AUTOMATICAMENTE una slide di titolo sezione all'inizio di OGNI sezione: in questa slide viene visualizzato l'indice delle sezioni, evidenziata quella corrente.
-\AtBeginSection[]
-{
-  \begin{frame}<beamer>
-    \frametitle{Sezione \thesection}
-    \tableofcontents[currentsection]
-  \end{frame}
-}
-
-%change color linksurl
-\hypersetup{ urlcolor=blue
-}
-
-%animatelines
-\usepackage{animate}
-\end_preamble
+\textclass article-beamer
 \use_default_options true
 \maintain_unincluded_children false
 \language italian
@@ -68,13 +33,13 @@
 \pdf_bookmarksopen false
 \pdf_bookmarksopenlevel 1
 \pdf_breaklinks false
-\pdf_pdfborder true
-\pdf_colorlinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
 \pdf_backref false
 \pdf_pdfusetitle true
-\pdf_quoted_options "linkcolor=black"
+\pdf_quoted_options "linkcolor=blue"
 \papersize default
-\use_geometry true
+\use_geometry false
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -135,7 +100,11 @@ Corso LyX 2015
 \end_layout
 
 \begin_layout Date
-Le classi di documento in LyX
+
+\size large
+Le classi di documento in Lyx
+\size default
+
 \begin_inset Newline newline
 \end_inset
 
@@ -213,6 +182,10 @@ LatexCommand tableofcontents
 \end_layout
 
 \end_deeper
+\begin_layout Frame
+
+\end_layout
+
 \begin_layout Section
 Perché LyX?
 \end_layout
@@ -232,17 +205,7 @@ Le classi di documento
 
 \begin_deeper
 \begin_layout Itemize
-LyX
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-software libero con interfaccia grafica per elaborare testi
-\end_layout
-
-\end_inset
-
- permette di concentrarsi sui 
+LyX permette di concentrarsi sui 
 \series bold
 contenuti
 \series default
@@ -259,10 +222,6 @@ I file .sty di latex definiscono una serie di tag al loro interno che in
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Pause
 
 \end_layout
 
@@ -291,10 +250,6 @@ Settings
  
 \series bold
 Document Class
-\end_layout
-
-\begin_layout Pause
-
 \end_layout
 
 \begin_layout Itemize
@@ -357,10 +312,6 @@ New from Template...
  
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 beamer-conference-ornate-20min.lyx
 \end_layout
@@ -400,19 +351,8 @@ Per chi vuole...
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
 \begin_layout Itemize
 LyX permette anche di creare un layout su misura per un nuovo tipo di documento
-\end_layout
-
-\begin_layout Pause
-
 \end_layout
 
 \begin_layout Itemize
@@ -427,13 +367,6 @@ Help
 \end_inset
 
  Customization
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -482,8 +415,12 @@ File
 letter.lyx
 \end_layout
 
-\begin_layout Pause
+\begin_layout Itemize
+Compilare i campi a vostro piacimento
+\end_layout
 
+\begin_layout Itemize
+Esportare il file pdf!
 \end_layout
 
 \begin_layout AlertBlock
@@ -530,13 +467,6 @@ status open
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
 \begin_layout Quote
 
 \series bold
@@ -557,30 +487,15 @@ New from Template...
 
  
 \series bold
-usr/share/lyx/examples/recipebook.lyx
-\end_layout
-
-\begin_layout Pause
-
+.../examples/recipebook.lyx
 \end_layout
 
 \begin_layout Itemize
 Compilare i campi a vostro piacimento
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 Esportare il file pdf!
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -666,10 +581,6 @@ Document Class
 Book (Standard Class)
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 In questo caso vengono molto utili ambienti come "Parte" o "Capitolo"
 \end_layout
@@ -738,10 +649,6 @@ File
  
 \series bold
 Child Document...
-\end_layout
-
-\begin_layout Pause
-
 \end_layout
 
 \begin_layout Itemize
@@ -822,40 +729,10 @@ Prerequisiti
 
 \begin_deeper
 \begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Block
-\begin_inset Argument 2
-status open
-
-\begin_layout Plain Layout
-Soltanto uno
-\end_layout
-
-\end_inset
-
 Il pacchetto 
 \series bold
 \emph on
 texlive-latex-extra
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-In ambienti Linux come Ubuntu, l'installazione di LyX include di default
- anche il pacchetto 
-\series bold
-\emph on
-texlive-latex-extra
-\end_layout
-
-\end_inset
-
-
 \series default
 \emph default
  contiene ModernCV
@@ -871,13 +748,6 @@ status open
 http://wiki.lyx.org/Examples/CV
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
 \end_inset
 
 
@@ -902,13 +772,6 @@ From CTAN
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
 \begin_layout Quotation
 Comprehensive TeX Archive Network:
 \end_layout
@@ -920,13 +783,6 @@ Comprehensive TeX Archive Network:
  both in a classic and in a casual style.
  It is fairly customizable, allowing you to define your own style by changing
  the colours, the fonts, etc."
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -984,10 +840,6 @@ File
  modernCV.lyx
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 Il template offerto segue lo standard americano, quindi sono omessi i campi
  riguardanti i dati anagrafici
@@ -1027,20 +879,6 @@ Insert
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-fai comprarire l'immagine assieme alla prima riga di testo e pausa le altre
- righe <3
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -1057,19 +895,6 @@ Example 1: Layout Item
 \begin_deeper
 \begin_layout Itemize
 \begin_inset VSpace vfill
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<-1,2>{
-\end_layout
-
 \end_inset
 
 Il layout 
@@ -1094,35 +919,11 @@ aggiungendo un
 Summary
 \series default
  che riassume il contenuto
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
 \begin_layout Standard
 \begin_inset VSpace vfill
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<1,2>{
-\end_layout
-
 \end_inset
 
 
@@ -1141,34 +942,10 @@ In LyX
 \end_inset
 
 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 \begin_inset VSpace vfill
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<2>{
-\end_layout
-
 \end_inset
 
 
@@ -1183,17 +960,6 @@ In View
 \begin_inset Graphics
 	filename item_pdf.svg
 	scale 35
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
 
 \end_inset
 
@@ -1227,19 +993,6 @@ Example 2: Layout Item with Comment
 \begin_inset VSpace vfill
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<-1,2>{
-\end_layout
-
-\end_inset
-
 Il layout 
 \series bold
 Item with comment
@@ -1270,17 +1023,6 @@ Text
 Text
 \series default
  
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -1292,19 +1034,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<1,2>{
-\end_layout
-
-\end_inset
-
-
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1320,17 +1049,6 @@ In LyX
 \end_inset
 
 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
 \begin_inset VSpace vfill
 \end_inset
 
@@ -1338,19 +1056,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<2>{
-\end_layout
-
-\end_inset
-
-
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1362,17 +1067,6 @@ In View
 \begin_inset Graphics
 	filename item_with_comment_view.svg
 	scale 40
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
 
 \end_inset
 
@@ -1404,19 +1098,6 @@ Example 3: Double Item
 \begin_deeper
 \begin_layout Itemize
 \begin_inset VSpace vfill
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<-1,2>{
-\end_layout
-
 \end_inset
 
 Il layout 
@@ -1451,17 +1132,6 @@ un
 Right Summary
 \series default
  che riassume il contenuto a destra
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
 \begin_inset VSpace vfill
 \end_inset
 
@@ -1470,19 +1140,6 @@ status open
 
 \end_deeper
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<1,2>{
-\end_layout
-
-\end_inset
-
-
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1498,17 +1155,6 @@ In LyX
 \end_inset
 
 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
 \begin_inset VSpace vfill
 \end_inset
 
@@ -1516,19 +1162,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<2>{
-\end_layout
-
-\end_inset
-
-
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1540,17 +1173,6 @@ In View
 \begin_inset Graphics
 	filename double_item_view.svg
 	scale 40
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
 
 \end_inset
 
@@ -1584,13 +1206,6 @@ Per cambiare stile...
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
 \begin_layout Quote
 
 \series bold
@@ -1621,13 +1236,6 @@ banking
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
 \end_deeper
 \begin_layout Separator
 
@@ -1717,10 +1325,6 @@ Il modernCV permette di linkare i Social Network direttamente al file pdf
  
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 Per ora è possibile linkare solo 
 \end_layout
@@ -1739,10 +1343,6 @@ twitter
 \end_layout
 
 \end_deeper
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 Ad esempio, per linkare Github:
 \end_layout
@@ -1786,10 +1386,6 @@ username
  di Github
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout AlertBlock
 \begin_inset Argument 2
 status open
@@ -1814,56 +1410,6 @@ lowercase
 
 \end_deeper
 \end_deeper
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-And now is time for a...
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size huge
-\color black
-Demo
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
 \begin_layout Section
 Presentazioni
 \end_layout
@@ -1882,13 +1428,6 @@ Prerequisiti
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
 \begin_layout Block
 \begin_inset Argument 2
 status open
@@ -1914,13 +1453,6 @@ In ambienti Linux come Ubuntu, l'installazione di LyX include di default
  anche il pacchetto richiesto
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
 \end_inset
 
 
@@ -1975,10 +1507,6 @@ Document Class
  Beamer
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 Scegliere il Template
 \end_layout
@@ -2002,17 +1530,9 @@ File
  beamer-conference-ornate-20min
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 Compilare i campi in base alle proprie esigenze e seguendo le comode note
  
-\end_layout
-
-\begin_layout Pause
-
 \end_layout
 
 \begin_layout Itemize
@@ -2040,10 +1560,6 @@ Gerarchia del documento
 \begin_deeper
 \begin_layout Standard
 Bisogna tenere a mente alcune cose per rispettare la struttura del documento
-\end_layout
-
-\begin_layout Pause
-
 \end_layout
 
 \begin_layout ColumnsTopAligned
@@ -2086,10 +1602,6 @@ status open
 
 \lang italian
 tab/shift-tab
-\end_layout
-
-\begin_layout Pause
-
 \end_layout
 
 \begin_layout Column
@@ -2142,10 +1654,6 @@ Separatore
 \end_layout
 
 \begin_deeper
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout ExampleBlock
 \begin_inset Argument 2
 status open
@@ -2181,21 +1689,7 @@ Le transizioni (aka pause)
 
 \begin_deeper
 \begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Il concetto di animazione in LyX si realizza tramite le transizioni (o pause)
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
 \end_layout
 
 \begin_layout Block
@@ -2210,51 +1704,6 @@ Definizione
 
  La pausa è un elemento del contenuto che consente di separare ciò che la
  precede da ciò che la segue.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<2>{
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename pause.svg
-	scale 35
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -2289,32 +1738,16 @@ La pausa
 Mantiene il filo logico e permette di far apparire
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 un 
-\end_layout
-
-\begin_layout Pause
-
 \end_layout
 
 \begin_layout Itemize
 elemento 
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 alla 
-\end_layout
-
-\begin_layout Pause
-
 \end_layout
 
 \begin_layout Itemize
@@ -2344,49 +1777,6 @@ I tre tipi di blocchi
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<4>{
-\end_layout
-
-\end_inset
-
-Recap:
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<-1,4>{
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout ExampleBlock
 \begin_inset Argument 2
 status open
@@ -2400,35 +1790,6 @@ Esempio
 Il blocco ha un titolo; il contenuto va inserito dopo il 
 \series bold
 Block Title 
-\series default
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<2,4>{
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Block
@@ -2457,37 +1818,10 @@ puntato
 \begin_deeper
 \begin_layout Itemize
 all'interno del blocco
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
 \end_deeper
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-visible<3,4>{
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout AlertBlock
 \begin_inset Argument 2
 status open
@@ -2508,17 +1842,6 @@ uscire fuori
 \end_inset
 
  dal blocco
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -2556,8 +1879,8 @@ https://www.hartwork.org/beamer-theme-matrix/
 
 \end_inset
 
- trovate i vari temi disponibili già inclusi in LyX, quindi senza la necessità
- di scaricare nulla, e potete scegliere quello su misura per voi!
+ trovate i vari temi disponibili e potete scegliere quello su misura per
+ voi!
 \end_layout
 
 \begin_deeper
@@ -2568,10 +1891,6 @@ Ad ogni riga è stato assegnato il nome di una città che rappresenta il tema
 
 \begin_layout Itemize
 Ogni colonna rappresenta il tipo di colore della presentazione
-\end_layout
-
-\begin_layout Pause
-
 \end_layout
 
 \end_deeper
@@ -2606,10 +1925,6 @@ Preamble
 \end_layout
 
 \begin_deeper
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 ...settare i parametri inserendoli nel preambolo
 \end_layout
@@ -2658,10 +1973,6 @@ Come
 fare?
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 Ad esempio, scegliendo dal menu a tendina dei layout 
 \series bold
@@ -2690,10 +2001,6 @@ Short Title
  
 \end_layout
 
-\begin_layout Pause
-
-\end_layout
-
 \begin_layout Itemize
 Per la Data scegliendo dal menu a tendina dei layout 
 \series bold
@@ -2718,10 +2025,6 @@ Insert
  
 \series bold
 Short Date
-\end_layout
-
-\begin_layout Pause
-
 \end_layout
 
 \begin_layout Block
@@ -2755,7 +2058,7 @@ necessariamente
 status open
 
 \begin_layout Plain Layout
-Another...
+Una carta vincente
 \end_layout
 
 \end_inset
@@ -2764,69 +2067,9 @@ Another...
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\size huge
-\color black
-Demo
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Frame
-
-\end_layout
-
-\begin_layout Separator
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Una carta vincente: versione stampabile
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 Per avere una versione stampabile della propria presentazione è sufficiente
  modificare la classe documento.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
 \end_layout
 
 \begin_layout Quote
@@ -2859,27 +2102,7 @@ Document Class
 Beamer Article (standard class)
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
 \end_deeper
-\begin_layout Frame
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-aggiungere preview versione stampabile
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Separator
 
 \end_layout

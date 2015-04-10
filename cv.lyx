@@ -102,7 +102,7 @@ orange
 \end_layout
 
 \begin_layout PDF Page Mode
-UseOutlines
+FullScreen
 \end_layout
 
 \begin_layout FirstName
@@ -569,15 +569,7 @@ Office Suite, Document Editor
 status open
 
 \begin_layout Plain Layout
-MS Office, 
-\lang italian
-
-\begin_inset Formula $\mathbf{L}\!{}_{\mathbf{{\displaystyle Y}}}\!\mathbf{X}$
-\end_inset
-
-
-\lang british
-/LaTeX, Libre Office
+MS Office, LyX/LaTeX, Libre Office
 \end_layout
 
 \end_inset
