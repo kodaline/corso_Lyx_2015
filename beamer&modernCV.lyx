@@ -237,14 +237,14 @@ LyX permette di concentrarsi sui
 contenuti
 \series default
 .
- Alla presentazione ci pensano i file di stile
+ Impaginare il documento finito è compito dei file di stile
 \begin_inset Foot
 status open
 
 \begin_layout Plain Layout
 I file .sty di latex definiscono una serie di tag al loro interno che in
  LyX compaiono nel menu a tendina dei layout: alcuni sono standard, altri
- sono utilizzabili a seconda del template che scegliete 
+ sono utilizzabili a seconda del template scelto
 \end_layout
 
 \end_inset
@@ -258,12 +258,19 @@ I file .sty di latex definiscono una serie di tag al loro interno che in
 
 \begin_layout Itemize
 In LyX esiste la classe documento che si "preoccupa" del tipo di documento.
- Andando su:
+ 
+\end_layout
+
+\begin_layout Quote
+Trovate le classi che LyX offre nel menu:
 \end_layout
 
 \begin_layout Quote
 
 \series bold
+\begin_inset space \qquad{}
+\end_inset
+
 Document
 \series default
  
@@ -281,14 +288,18 @@ Settings
  
 \series bold
 Document Class
+\begin_inset space \hfill{}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Pause
 
 \end_layout
 
-\begin_layout Itemize
-trovate le classi che LyX offre, tra cui
+\begin_layout Quote
+Alcuni esempi:
 \end_layout
 
 \begin_deeper
@@ -301,7 +312,7 @@ ModernCV
 \end_layout
 
 \begin_layout Itemize
-Beamer etc.
+Beamer
 \end_layout
 
 \end_deeper
@@ -315,7 +326,7 @@ Beamer etc.
 status open
 
 \begin_layout Plain Layout
-Bisogna tenere a mente una cosa...
+Keep in mind...
 \end_layout
 
 \end_inset
@@ -329,7 +340,7 @@ LyX mette a disposizione una vasta scelta di
 \series bold
 Modelli 
 \series default
-commentati, basta modificarli!
+pieni di note e utili commenti
 \end_layout
 
 \begin_layout Quote
@@ -446,7 +457,10 @@ Per scrivere una lettera...
 
 \begin_deeper
 \begin_layout Standard
-Nulla di più semplice!
+\begin_inset VSpace vfill
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quote
@@ -476,12 +490,21 @@ letter.lyx
 
 \end_layout
 
+\end_deeper
+\begin_layout Frame
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout AlertBlock
 \begin_inset Argument 2
 status open
 
 \begin_layout Plain Layout
-Solo una piccola nota
+Nota Bene
 \end_layout
 
 \end_inset
@@ -490,15 +513,22 @@ Solo una piccola nota
 \end_layout
 
 \begin_layout AlertBlock
-L'ultima riga di commiato 
+L'ultima riga di commiato, detta 
 \series bold
 Signature
 \series default
- va inserita nel documento di LyX prima del campo 
+, va inserita nel documento prima del campo 
 \series bold
 Opening
 \series default
 , come specificato nel template
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -511,7 +541,7 @@ Opening
 status open
 
 \begin_layout Plain Layout
-...oppure il ricettario della nonna *.*
+...o il ricettario della nonna *.*
 \end_layout
 
 \end_inset
@@ -547,7 +577,7 @@ New from Template...
 
  
 \series bold
-usr/share/lyx/examples/recipebook.lyx
+/usr/share/lyx/examples/recipebook.lyx
 \end_layout
 
 \begin_layout Pause
@@ -583,7 +613,7 @@ Esportare il file pdf!
 status open
 
 \begin_layout Plain Layout
-Per gli aspiranti autori invece...
+Per gli autori in erba...
 \end_layout
 
 \end_inset
@@ -602,9 +632,7 @@ Book
 status open
 
 \begin_layout Plain Layout
-LyX non offre un Template prefissato per la classe 
-\series bold
-Book
+ma non offre nessun Template per tale modalità
 \end_layout
 
 \end_inset
@@ -661,7 +689,7 @@ Book (Standard Class)
 \end_layout
 
 \begin_layout Itemize
-In questo caso vengono molto utili ambienti come "Parte" o "Capitolo"
+In questo caso vengono molto utili strumenti come "Parte" o "Capitolo"
 \end_layout
 
 \end_deeper
@@ -674,14 +702,7 @@ In questo caso vengono molto utili ambienti come "Parte" o "Capitolo"
 status open
 
 \begin_layout Plain Layout
-Ma per scrivere 
-\series bold
-\emph on
-bene
-\emph default
- 
-\series default
-un libro...
+e per quelli di bestseller...
 \end_layout
 
 \end_inset
@@ -770,7 +791,7 @@ BibTeX Bibliography...
 
 \end_inset
 
- con le citazioni etichettate per riga
+ con le fonti etichettate per riga
 \end_layout
 
 \begin_layout Quote
@@ -836,11 +857,8 @@ texlive-latex-extra
 status open
 
 \begin_layout Plain Layout
-In ambienti Linux come Ubuntu, l'installazione di LyX include di default
- anche il pacchetto 
-\series bold
-\emph on
-texlive-latex-extra
+In ambienti GNU/Linux come Ubuntu, l'installazione di LyX include di default
+ anche il suddetto pacchetto
 \end_layout
 
 \end_inset
@@ -851,8 +869,12 @@ texlive-latex-extra
  contiene ModernCV
 \end_layout
 
+\begin_layout Pause
+
+\end_layout
+
 \begin_layout Itemize
-È disponibile il template di esempio qui 
+Potete trovare il template di esempio al seguente link 
 \begin_inset Flex URL
 status open
 
@@ -939,20 +961,11 @@ Scriviamo il nostro Curriculum
 
 \begin_deeper
 \begin_layout Standard
-Esistono vari template per creare il proprio CV, quali 
-\series bold
-EuropeCV
-\series default
- e 
-\series bold
-SimpleCV
-\series default
-.
- Noi però ci concentreremo sul template 
+Oggi ci concentriamo sul template 
 \series bold
 modernCV 
 \series default
-che è il più elegante e il più gettonato.
+che è il più elegante e gettonato.
 \end_layout
 
 \begin_layout Quote
@@ -979,39 +992,40 @@ File
 \end_layout
 
 \begin_layout Itemize
-Il template offerto segue lo standard americano, quindi sono omessi i campi
- riguardanti i dati anagrafici
-\end_layout
-
-\begin_layout Itemize
-Sono però facilmente inseribili tramite il menu a tendina dei layout 
+Il template offerto segue lo standard americano, che è privo dei campi riguardan
+ti i dati anagrafici
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Ogni layout ha disponibili diversi 
-\begin_inset Quotes fld
-\end_inset
-
-campi
-\begin_inset Quotes frd
-\end_inset
-
- di inserimento accessibili da 
-\end_layout
-
-\begin_layout Quote
-
-\series bold
-Insert 
-\begin_inset Formula $\triangleright$
-\end_inset
-
- ...
- 
+inseribili comunque tramite il menu a tendina dei layout 
 \end_layout
 
 \end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Standard
+Esistono altri template per creare il proprio CV:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+EuropeCV
+\series default
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+SimpleCV
+\series default
+ 
+\end_layout
+
 \end_deeper
 \begin_layout Separator
 
@@ -1225,7 +1239,7 @@ status open
 
 
 \backslash
-visible<-1,2>{
+visible<-1,2,3>{
 \end_layout
 
 \end_inset
@@ -1243,23 +1257,23 @@ un
 \series bold
 Summary
 \series default
- che riassume il contenuto
+ che riassume il contenuto...
+\end_layout
+
+\begin_layout Pause
+
 \end_layout
 
 \begin_layout Itemize
-del 
+...del 
 \series bold
 Text
 \series default
- che riguarda il contenuto 
+ che lo riguarda
 \end_layout
 
 \begin_layout Itemize
-...e, volendo, del testo in più che chiarisce il 
-\series bold
-Text
-\series default
- 
+e, volendo, del testo in più 
 \begin_inset ERT
 status open
 
@@ -1289,7 +1303,7 @@ status open
 
 
 \backslash
-visible<1,2>{
+visible<2,3>{
 \end_layout
 
 \end_inset
@@ -1335,7 +1349,7 @@ status open
 
 
 \backslash
-visible<2>{
+visible<3>{
 \end_layout
 
 \end_inset
@@ -1595,7 +1609,7 @@ I possibili stili
 
 \begin_deeper
 \begin_layout Itemize
-casual (di default)
+casual (default)
 \end_layout
 
 \begin_layout Itemize
@@ -1651,7 +1665,7 @@ Tra i colori disponibili
 
 \begin_deeper
 \begin_layout Itemize
-blue (di default)
+blue (default)
 \end_layout
 
 \begin_layout Itemize
@@ -1693,7 +1707,7 @@ black
 status open
 
 \begin_layout Plain Layout
-Una feature carina del CV
+Una feature carina
 \end_layout
 
 \end_inset
@@ -1703,8 +1717,7 @@ Una feature carina del CV
 
 \begin_deeper
 \begin_layout Standard
-Il modernCV permette di linkare i Social Network direttamente al file pdf
- 
+ModernCV permette di linkare i Social Network direttamente al file pdf 
 \end_layout
 
 \begin_layout Pause
@@ -1900,7 +1913,7 @@ latex-beamer
 status open
 
 \begin_layout Plain Layout
-In ambienti Linux come Ubuntu, l'installazione di LyX include di default
+In ambienti GNU/Linux come Ubuntu, l'installazione di LyX include di default
  anche il pacchetto richiesto
 \end_layout
 
@@ -2029,7 +2042,7 @@ Gerarchia del documento
 
 \begin_deeper
 \begin_layout Standard
-Bisogna tenere a mente alcune cose per rispettare la struttura del documento
+Alcune note sull'importanza del gestire le gerarchie in modo corretto
 \end_layout
 
 \begin_layout Pause
@@ -2461,16 +2474,8 @@ Avviso
 
 \end_inset
 
-I blocchi causano dipendenza: se ne utilizzate troppi potrebbe essere un
- 
-\begin_inset Quotes fld
-\end_inset
-
-problema
-\begin_inset Quotes frd
-\end_inset
-
-
+I blocchi causano dipendenza: se ne utilizzate troppi potrebbe risultare
+ pesante per il lettore
 \begin_inset ERT
 status open
 
@@ -2515,8 +2520,13 @@ https://www.hartwork.org/beamer-theme-matrix/
 
 \end_inset
 
- trovate i vari temi disponibili già inclusi in LyX, quindi senza la necessità
- di scaricare nulla, e potete scegliere quello su misura per voi!
+ trovate i vari temi disponibili già inclusi in LyX, senza la necessità
+ di scaricare nulla.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Potete quindi scegliere quello su misura per voi!
 \end_layout
 
 \begin_deeper
@@ -2526,7 +2536,7 @@ Ad ogni riga è stato assegnato il nome di una città che rappresenta il tema
 \end_layout
 
 \begin_layout Itemize
-Ogni colonna rappresenta il tipo di colore della presentazione
+Ogni colonna rappresenta il colore del tema
 \end_layout
 
 \begin_layout Pause
@@ -2627,12 +2637,6 @@ Ad esempio, scegliendo dal menu a tendina dei layout
 Title
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Andare su:
-\end_layout
-
-\end_deeper
 \begin_layout Quote
 
 \series bold
@@ -2659,12 +2663,6 @@ Per la Data scegliendo dal menu a tendina dei layout
 Date
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Andare su:
-\end_layout
-
-\end_deeper
 \begin_layout Quote
 
 \series bold
@@ -2827,15 +2825,6 @@ Beamer Article (standard class)
 
 \end_deeper
 \begin_layout Frame
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-aggiungere preview versione stampabile
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -2857,10 +2846,6 @@ RTFM
 \end_layout
 
 \begin_deeper
-\begin_layout Standard
-Andando su:
-\end_layout
-
 \begin_layout Quote
 
 \series bold
@@ -2999,7 +2984,7 @@ Fine
 
 \series bold
 \size largest
-Grazie per la Vostra attenzione!
+Grazie per l'attenzione!
 \end_layout
 
 \begin_layout Standard
@@ -3016,7 +3001,7 @@ Grazie per la Vostra attenzione!
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename ../POuL/SlidesTemplatePOuL/by-sa.svg
+	filename by-sa.svg
 	height 0.9cm
 
 \end_inset

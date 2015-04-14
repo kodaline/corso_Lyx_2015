@@ -94,15 +94,11 @@
 \begin_body
 
 \begin_layout CVStyle
-casual
+classic
 \end_layout
 
 \begin_layout CVColor
 orange
-\end_layout
-
-\begin_layout PDF Page Mode
-FullScreen
 \end_layout
 
 \begin_layout FirstName
@@ -171,33 +167,7 @@ twitter
 
 \end_inset
 
-ptestman
-\end_layout
-
-\begin_layout Social
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-linkedin
-\end_layout
-
-\end_inset
-
-ptestman
-\end_layout
-
-\begin_layout Social
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-github
-\end_layout
-
-\end_inset
-
-ptestman
+kodadele
 \end_layout
 
 \begin_layout MakeCVtitle
@@ -238,7 +208,7 @@ Birth Date
 
 \end_inset
 
-xx March 1992
+xx Month 1992
 \end_layout
 
 \begin_layout Item
@@ -375,6 +345,10 @@ status open
 
 \begin_layout Plain Layout
 Nov 2013
+\begin_inset Newline newline
+\end_inset
+
+Feb 2014
 \end_layout
 
 \end_inset
