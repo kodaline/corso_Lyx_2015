@@ -886,6 +886,26 @@ http://wiki.lyx.org/Examples/CV
 \end_inset
 
 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+aggiunge alcuni dati direttamente nel preambolo, per avere il template completo
+ File 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ New from Template...
+ 
+\begin_inset Formula $\triangleright$
+\end_inset
+
+ .../examples/modernCV.lyx
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -984,7 +1004,7 @@ File
 \begin_inset Formula $\triangleright$
 \end_inset
 
- modernCV.lyx
+ .../examples/modernCV.lyx
 \end_layout
 
 \begin_layout Pause
@@ -1028,20 +1048,6 @@ SimpleCV
 
 \end_deeper
 \begin_layout Separator
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-fai comprarire l'immagine assieme alla prima riga di testo e pausa le altre
- righe <3
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
